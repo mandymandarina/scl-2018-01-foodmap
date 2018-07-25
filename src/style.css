@@ -1,0 +1,27 @@
+/* Reseteo márgenes browser y color body */
+body {
+	margin: 0 auto;
+	background: #2b2b2b;
+}
+/* Estilos generales */
+h1, h2 {
+	color:orange;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.form-control {
+	width: 1px;
+	padding: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.btn {
+	margin-left: -99px;
+	margin-right: 100px;
+}
+
+.mapas {
+	text-align: center;
+}
