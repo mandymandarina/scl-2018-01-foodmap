@@ -70,7 +70,7 @@ inputText.addEventListener('keypress', (event) => {
         renderInfo(data);
       });
   }
-});
+}); 
 
 const renderInfo = (data) => {
   containerTitle.innerHTML = data.cuisines;
