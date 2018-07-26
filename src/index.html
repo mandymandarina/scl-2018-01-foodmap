@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--Vinculación Hojas de Estilo Propias-->
     <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?AIzaSyAF02jJ0xOYELBuULAozx5ZbGVy8ahW0Lg&libraries=places"></script>
 </head>
 <body>
- 
+ <section>
  <h1>Foodmap</h1>
  <div id="mapa" class="mapas" style="width: 450px; height: 350px;"> </div>
+</section>
+<section>
  <!-- Buscador -->
  <h2>Comida cerca de ti</h2>
  <div class="input-group mb-3">
@@ -25,9 +27,22 @@
       <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
     </div>
   </div>
-  <div>
-    <p id="counter"></p>
+</section>
+<section> 
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/11-es-malo-comer-fruta-despues-de-la-comida.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/comida-mexicana-1.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/comida-chilena-744x465.jpg" alt="Third slide">
+      </div>
+    </div>
   </div>
+<section>
 
   <div class="widget_wrap" style="width:320px;height:797px;display:inline-block;"><iframe src="https://www.zomato.com/widgets/res_search_widget.php?city_id=83&theme=red&hideCitySearch=on&hideResSearch=on&sort=popularity" style="position:relative;width:100%;height:100%;" border="0" frameborder="0"></iframe></div>
 
