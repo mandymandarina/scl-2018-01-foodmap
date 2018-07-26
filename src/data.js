@@ -55,6 +55,13 @@ function crearMarcador(place) {
   });
 }
 
+const renderInfo = (result) => {
+  inputText.innerHTML = data.cuisines;
+  containerYear.innerHTML = data.Year;
+  containerRuntime.innerHTML = data.Runtime;  
+};
+
+/*
 // API zomato
 inputText.addEventListener('keypress', (event) => {
   let key = event.which || event.keyCode;
@@ -71,10 +78,5 @@ inputText.addEventListener('keypress', (event) => {
       });
   }
 }); 
+*/
 
-const renderInfo = (data) => {
-  containerTitle.innerHTML = data.cuisines;
-  containerYear.innerHTML = data.Year;
-  containerRuntime.innerHTML = data.Runtime;
-  containerImage.innerHTML = `<img src="${data.Poster}">`;
-}
