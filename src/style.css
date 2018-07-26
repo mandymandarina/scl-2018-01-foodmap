@@ -37,8 +37,16 @@ h1, h2, p {
 
 .carousel {
 	margin-top: 2em;
-	margin-bottom: 2em;
-}
+	margin-bottom: 2em;	 
+	margin: 0 3px;
+	width: 1000px;
+	height: 500px;
+	border: none;
+	border-radius: 100%;
+	line-height: 30px;
+	color: #fff; 
+	}
+
 
 .preload {
 	width: 100%;

@@ -1,932 +1,111 @@
-/***************************Estilos Login***********************************/
-
-.login{
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-  background-image: url(img/portada2.png);
-	background-size: cover;
-	height: 100vh;
-	display: none;
-	width: 100%;
-	text-align: center;
-}
-
-#logo{
-	text-align: center;
-	width: 70vw;
-	margin:10%;
-	margin-left: 10%;
-	margin-top: 20%;
-	margin-bottom: 10%;
-}
-.inputLogin{
-	border-radius: 0%;
-  border: 0px;
-  width: 60vw;
-	height: 6vh;
-	display: block;
-	margin-left: 17%;
-	margin-top: 2%;
-}
-.btnLogIn{
-	background-color: #22B4BD;
-	border: 0px;
-	cursor: pointer;
-	margin: 4em auto;
-	width: 60vw;
-	height: 6vh;
-	display: block;
-	color: #FFF;  
-	margin-bottom: 2%;
-	margin-top:2%;
-}
-.logosIcon{
-	width: 20px;
-}
-.btnFb{
-	background-color:#4267B2;
-	border: 0px;
-	cursor: pointer;
-	margin: 4em auto;
-	width: 60vw;
-	height: 6vh;
-	display: block;
-	color: #FFF;  
-	font-size: 15px;
-	margin-top:2%;
-	margin-bottom: 2%;
-}
-.fab{
-	font-size: 100%;
-}
-.space{
-	padding:  1vw;
-}
-.btnGoogle{
-	background-color: #4285F4;
-	border: 0px;
-	cursor: pointer;
-	margin: 4em auto;
-	width: 60vw;
-	height: 6vh;
-	display: block;
-	color: #FFF;  
-	font-size: 15px;
-	margin-top:2%;
-	margin-bottom: 2%;
-}
-
-.textLogin{
-	text-align: center;
-	display:block;
-	color:rgb(31, 30, 30);
-  margin-top:1%;
-	margin-bottom:2%;
-	font-size: 80%;
-	border: 0px;
-}
-#registrate{
-	font-size: 100%;
-	color: #303030;
-	cursor: pointer;
-	font-weight: bold;
-}
-
-#loginBack{
-	text-align: center;
-	cursor: pointer;
-	font-size: 100%;
-	color:rgb(31, 30, 30);
-}
-@media (min-width: 768px){
-#logo{
-	margin-top:30px;
-	text-align: center;
-	width: 50vw;
-	margin-left:10%
-}
-.login{
-	background-size: cover;
-	height: 110vh;
-	display: none;
-	width: 100%;
-}
-.inputLogin{
-  width: 50vw;
-	height: 6vh;
-	display: block;
-	margin-left: 24%;
-	margin-top: 2%;
-	font-size: 20px;
-}
-#registrate{
-font-size: 20px;
-}
-.btnLogIn{
-	width: 50vw;
-	font-size: 22px;
-}
-.btnFb, .btnGoogle{
-	width: 50vw;
-	font-size: 22px;
-}
-.logosIcon{
-	width: 30px;
-}
-.textLogin{
-	font-size: 20px;
-
-}
-}
-
-/***********************************fin login********************************/
-
-
-/*****************Registro****************************************/
-.registro{
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-image: url(img/portada2.png);
-	background-size: cover;
-	height: 100vh;
-	display: none;
-		
-}
-
-.register{
-	margin-top:20%;	
-}
-
-#logoRegister{
-	text-align: center;
-	width: 60vw;
-	margin:10%;
-	margin-left: 20%;
-	margin-top: 20%;
-	margin-bottom: 2%;
-}
-
-.alertConteiner{
-	z-index: 20;
-	text-align: center;
-  border-radius: 0%;
-  border: 0px;
-  width: 250px;
-	display: block;
-	margin-left: 3.5%;
-	margin-top: 2%;
-}
-
-#modalTerms{
-	font-size: 60%;
-	text-align: justify;
-	padding: 2%;
-	display: none;
-}
-.close{
-	text-align: right;
-}
-
-#terminos{
-	cursor: pointer;
-	color:blue;
-}
-#loginBack{
-font-weight: bold;
-color: #303030;
-}
-
-@media (min-width: 768px){
-#logoRegister{
-	margin-top: -10%;	
-	text-align: center;
-	width: 50vw;
-	margin-left:24%
-	}
-
-#aceptTerm{
-	width: 20px;
-	height:20px;
-}
-.textLogin{
-	font-size: 20px;
-}
-#loginBack{
-	font-size: 20px;
-}
-}
-
-
-/****************************************fin Registro**************************************************/
-#confirm{
-	display: none;
-}
-.confirm {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  min-width: 280px;
-  max-width: 500px;
-  height: auto;
-  background: #E2E2E2;
-  border-radius: 10px;
-  padding: 0;
-  margin: 0;
-  border-top: 1px solid white;
-  animation: fade 1s ease 1 forwards;
-}
-.confirm h1 {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 1.5rem 1rem 0.5rem;
-}
-.confirm p {
-  text-align: center;
-  font-size: 1rem;
-  margin: 0 2rem 4.5rem;
-}
-.confirm button {
-  background: transparent;
-  border: none;
-  color: #1678E5;
-  height: 3rem;
-  font-size: 1rem;
-  width: 50%;
-  position: absolute;
-  bottom: 0;
-  cursor: pointer;
-}
-.confirm button:nth-of-type(1) {
-  border-top: 1px solid #B4B4B4;
-  border-right: 1px solid #B4B4B4;
-  left: 0;
-  border-radius: 0 0 0 10px;
-}
-.confirm button:nth-of-type(2) {
-  border-top: 1px solid #B4B4B4;
-  right: 0;
-  border-radius: 0 0 10px 0;
-}
-.confirm button:focus,
-.confirm button:hover {
-  font-weight: bold;
-  background: #EFEFEF;
-}
-.confirm button:active {
-  background: #D6D6D6;
-}
-/****************************************Seccion Muro**************************************************/
-.muro{
-	display: none;
-}
-@media (min-width: 768px){
-	.muro{
-		margin-top: 95px;
-	}
-}
-
-/**********************MENU *********************************/
-.pos-f-t{
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	border-width: 0 0 1px;
-}
-.bg-blue{
-	z-index: 1000;
-	background-color: #22B4BD;
-}
-.lineMenu{
-	width: 8%;
-	position: left;
-}
-.logoWhite{
-	width: 26%;
-}
-
-.menu{
-	position: absolute;
-	top:0;
-	height: 100vh; 
-	width: 90vw;
-	transition: 0.5s ease-out;
-	background-color: #22B4BD;
-}
-
-.menu_closed{
-	left: -90vw;
-}
-
-.menu_open{
-	left: 0;
-}
-
-.close_button{ 
-	font-size: xx-large;
-	color: white;
-	position: absolute;
-	right: 10px;           
-}
-.navbar-toggler{
-	border: none;
-}
-.menu_content{
-	padding: 10px;
-	margin-top: 20px;
-	color: white;
-	background-color: #22B4BD;
-}
-
-.textMenu{
-color: white;
-}
-
-.photoMenu{
-	width: 25px;
-}
-
-@media(min-width: 425px){
-	.menu{
-			width: 60vw; 
-	}
-
-	.menu_closed{
-			left:-60vw;
-	}
-}
-
-@media(min-width: 768px){
-	.menu{
-			width: 20vw; 
-	}
-
-	.menu_closed{
-			left:-20vw;
-	}
-}
-/**************************FIN MENU******************************************/
-
-/************************INICIO BARRA INFERIOR*****************************/
-.footer {
-	z-index: 100;
-	width: 100%;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	background-color:#DADADA;
-	text-align: center;
-	height: 40px;
-}
-
-
-.iconFooter{
-	color:#8A8A8F;
-	text-align: center;
-	font-size: 11px;
-	font-family:'Roboto', sans-serif;
-	margin-top: 3px;
-}
-.mediaProfile{
-	width: 40px;
-	height: 30px;
-}
-.iconRecipes .iconSearch .iconFavourite .iconProfile{
-	margin-bottom: none;
-	padding-bottom: none;
-	width: 10px;
-}
-
-.row {
-	margin-right: 0px;
-	margin-left: 0px;
-}	
-.nameIconFooter{
-	margin-top: -10px;
-	margin-bottom: 0px;
-	cursor: pointer;
-}
-
-.nameIconFooter:hover{
-	color: blue;
-
-}
-/************************FIN BARRA INFERIOR*****************************/
-
-
 /* Reseteo márgenes browser y color body */
-/*Estilos de sección publicaciones*/
-
-.center{
-display: none;
-margin-top: 53px;
-}
-
-.fa-arrow-left{
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.comment{
-	font-size: 12px;
-  margin-left: 1px;
-	font-family:'Roboto', sans-serif;
-}
-
-.behind{
-	background-color: #efefef;
-	height: 25px;
-	color: #303030;
-}
-
-.title{
-font-size: 5%;
-}
-.titleChicken{
-	font-size: 15px;
-	font-family:'Roboto', sans-serif;;
-	text-align: left;
-	font-weight: bold;
-	margin-left: 8px;
-	margin-top: 10px;	
-	margin-bottom: 0%;
-}
-.titlePortion{
-	font-size: 12px;
-	font-family:'Roboto', sans-serif;;
-	text-align: left;
-	font-weight: bold;
-	margin-left: 8px;
-	margin-bottom: 0%;
-	display:block;
-}
-.iconFood {
-	background-color: #dadada;
-	height: 29px;
-	margin-top: 4px;
-	text-align: center;
-}
-.iconNoMilk, .iconNoGluten, .iconVegetariano {
-width: 25px;
-margin-top: 2px;
-margin-left: 25px;
-}
-.iconPasta, .iconMeet{
-	width: 25px;
-	margin-top: 2px;
-	}
-.carousel-indicators-numbers li {  
-   margin: 0 3px;
-   width: 10px;
-   height: 10px;
-   border: none;
-   border-radius: 100%;
-   line-height: 30px;
-	 color: #fff; 
- }
-
 body {
 	margin: 0 auto;
-	
-	
+	background: #2b2b2b;
 }
-
 /* Estilos generales */
-/* Estilos Header */
-header {
-	background-color: #FFF;
+h1, h2, p {
+	color:orange;
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
-header div img {
-	width: 10em;
+.form-control {
+	width: 1px;
+	padding: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
-/* Estilos imágen y su contenedor */
-
-.photo{
-	text-align: center;
+.btn {
+	margin-left: -99px;
+	margin-right: 100px;
 }
 
+.mapas {
+	display: block;
+	padding: 20em;
+	margin: 11em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 
-/*****************  PUBLICAR COMENTARIOS *****************************/
-.rowEnterComments{
-	border-bottom: solid 1px rgb(145, 144, 144);
-	margin-bottom: 0px;
-	height: 62px;
+.widget_wrap {
+	margin-left: 500px;
+	margin-right: 100px;
+}
+
+.carousel {
+	margin-top: 2em;
+	margin-bottom: 2em;	 
+	margin: 0 3px;
+	width: 1000px;
+	height: 500px;
+	border: none;
+	border-radius: 100%;
+	line-height: 30px;
+	color: #fff; 
+	}
+
+
+.preload {
 	width: 100%;
-
-}
-.publicationComment{
-	margin-top: 15px;
-	display: inline-block;
-	margin-left: 0%;
-	padding-right: 0px;
-}
-.IconProfileComment{
-	vertical-align: middle;
-	width: 25px;
-	margin-top: 0px;
+	height: 100%;
+	background: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
-.commentPublication{
-	font-size: 15px;
-	font-family:'Roboto', sans-serif;
-	border: none;
-	width: 65%;
-	height: 40%;
-	padding: none;
+.logo {
+	width: 300px;
+	height: 70px;
+	margin: 150px auto 50px auto;
+	font-size: 50px;
+	text-align: center;
 }
-#btnMessage {
-	background-color: transparent;
-	border: none;
-	margin: none;
-	border: 0px;
-	cursor: pointer;
-	text-align: center;	
-	color: #22B4BD; 
-	font-size: 13px;
-	font-family:'Roboto', sans-serif;
-	padding: 0%;
+
+.loader1, loader {
+	position: absolute;
+	border: 5px solid transparent;
+	border-radius: 50%;
+}
+
+.loader-frame {
+	width: 70px;
+	height: 70px;
+	margin: auto;
 	position: relative;
 }
 
-#btnMessage:hover {
-	background-color: none;
-	border: none;
-	margin:none;
+.loader1 {
+	width: 70px;
+	height: 70px;
+	border-top: 5px solid azure;
+	border-bottom: 5px solid azure;
+	animation: clockwisespin 2s linear 3;
 }
 
-#btnMessage:focus, textarea:focus{
-	outline: none;
-}
-@media (min-width: 425px){
-	.commentPublication {
-        width: 75%;
-	}
-
+.loader2 {
+	width: 60px;
+	height: 60px;
+	border-left: 5px solid aquamarine;
+	border-right: 5px solid aquamarine;
+	animation: anticlockwisespin 2s linear 3;
 }
 
-/* Estilos contenedor comentarios */
-
-
-#cont {
-	border-radius: 4em;
-	margin: 0 auto;	
-	text-align: left;
-	margin-top: 0em;
-	padding: 0 0%;
-	width: 100%;
-	height: 2em;
-	border-color: white;  
+@keyframes clockwisespin {
+	from {transform: rotate(2deg);}
+	to {transform: rotate(360deg)}
 }
 
-
-#cont div {
-	padding: 0.5em 0.5em;	
-	background-color: #FFF;
-	width: 100%;
-	height: 2em;
+@keyframes anticlockwisespin {
+	from {transform: rotate(2deg);}
+	to {transform: rotate(-360deg)}
 }
 
-.heart, .trash {
-	margin:1em;
-	float: right;
-	cursor: pointer;
-}
-
-.trash:hover {
-	color: #1DA1F2;
-	cursor: pointer;
-}
-
-.strike-out {
-	text-decoration: line-through;
-	color: #1DA1F2;
-}
-
-.red {
-	color: #FC1E26;
-	cursor: pointer;
-}
-
-p {
-	display: inline-block;
-	margin-left: 0.5em;
-}
-
-/**************************COMENTARIOS PUBLICADOS**************************/
-.enterComments{
-	margin-bottom: 50px;
-}
-.photouser{
-	width:20px;
-	height: 20px;
-	padding: 0%;
-	margin-right: 5px;
-}
-
-.iconFriend, 	.iconNotFriend, .iconuserFriend{
-	margin-left: 8px;
-	color:rgb(145, 144, 144);
-}
-.fa-pencil-alt{
-	color:rgb(145, 144, 144);
-	
-}
-.fa-trash {
-margin-left: 3px;
-color:rgb(145, 144, 144);
-}
-
-.fa-heart{ 
-	width: 2%;
-	margin-left: 5px;
-	color:rgb(145, 144, 144);
-}
-.iconAll{
-	width: 25%;
-	height: 15%;
-	text-align: right;
-}
-.textInsert{
-	margin-left: 17px;
-	padding: 0%;
-	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
-
-}
-
-.iconComment{
-	color:#303030;
-	font-size: 12px;
-	font-family: 'Muli', sans-serif;
-	font-weight: bold;
-	margin-left: 20px;
-}
-.textLike{
-	color:#303030;
-	font-size: 12px;
-	font-family:'Roboto', sans-serif;
-}
-
-
-
-.photoUserComment{
-	color: black;
-}
-
-/**************************COMENTARIOS PUBLICADOS**************************/
-
-
-/*************************************Amigos******************************************************/
-
-#userFriend{
-	display: none;
-}
-
-#userNotFriend{
-	display: block;
-}
-
-/****************************PERFIL***********************************/
-#btnArrowProfile{
-	margin: none;
-	border:none;
-	background-color: transparent;
-}
-.profileFooter{
-	cursor: pointer;
-}
-#sectionProfile{
-	display: none;
-	margin-top: 53px;
-}
-.imgProfile{
-	margin-top:20px;
-	margin-left: 0%;
-	text-align: center;
-	width: 95px;
-	border: solid 1px rgb(145, 144, 144);
-	border-radius: 95px
-}
-.pagIconProfile{
-	width: 16px;
-}	
-.logout{
-	color: #303030;
-	font-size: 11px;
-	font-family:'Roboto', sans-serif;
-	margin-left: 32%;
-	border-left: solid #dadada 1px; 
-  padding-bottom: 2px;
-}
-
-.nameUser{
-	font-size: 11px;
-	font-family:'Roboto', sans-serif;
-	text-align: left;
-	font-weight: bold;
-	margin-left: 3.5px;
-}
-.photoUser{
-	display: inline-block;
-  text-align: center;
-}
-.infoUser{
-	display: inline-block;
-  text-align: center;
-}
-
-.btnPublicationUser{
-	font-size: 9px;
-	font-family:'Roboto', sans-serif;
-	color: black;
-	padding:1%;
-	display: inline-block;
-	margin-left:5px;
-	margin-top: 20%;
-}
-.btn-outline-dark{
-	font-size: 11px;
-	font-family:'Roboto', sans-serif;
-	margin-top: 8px;
-	margin-left:6px;
-	width: 170px;
-	height: 25px;
-	text-align: center;
-	padding: 5px;
-}
-.rowRecipes{
-	height: 30px;
-}
-.myRecipes{
-	text-align: center;
-	font-size: 15px;
-	font-family:'Roboto', sans-serif;;
-	font-weight: bold;
-	margin-top: 5px;
-	
-}
-/*imagenes de perfil*/
-
-.img-thumbnail {
-	height: 100px;
-		margin-top: 10px;
-	}
-
-	@media (min-width: 375px){
-	.logout{
-		margin-left: 45%;
-		}
-	.btnPublicationUser {
-		font-size: 11px;
-	}
-	.photoUser{
-		text-align: unset;
-	}
-	}
-
-	@media (min-width: 768px){
-		.img-thumbnail{
-			width: 100%;
-			height: 250px;
-		}
-		.imgProfile{
-			margin-top:20px;
-			margin-bottom:20px;
-			margin-left: 4%;
-			width: 120px;
-		}
-		.photoUser{
-		padding: 0%;
-		}
-		.nameUser{
-			font-size: 15px;
-		}
-		.btnPublicationUser {
-			margin-top: 30px;
-			font-size: 15px;
-		}
-		.btn-outline-dark{
-			font-size: 15px;
-			font-family:'Roboto', sans-serif;
-			margin-top: 8px;
-			margin-left:8px;
-			width: 270px;
-			height: 28px;
-			text-align: center;
-			padding: 5px;
-		}
-	}
-	/****************************fin PERFIL***********************************/
-
-	/****************************SECCION RECETAS***********************************/
-
-	#sectionRecipes{
-		display: none;
-	}
-	.rowRecipes{
-		border-bottom: solid 1px #dadada;
-		border-top: solid 1px #dadada;
-	}
-	#btnArrowRecipes{
-		margin: none;
-		border:none;
-		background-color: transparent;
-	}
-	.pagIconRecipes{
-		width: 16px;
-	}		
-
-	.titleRecipes{
-		text-align: center;
-		font-size: 14px;
-		font-family:'Roboto', sans-serif;
-		font-weight: bold;
-	}
-
-	/*INGREDIENTES*/
-	.rowTextIngredients{
-		margin-bottom: 10px;
-		border-bottom: solid 1px #dadada;
-		border-top: solid 1px #dadada;
-		background-color: #DADADA;
-	}
-	.textIngredients{
-		margin-bottom: 0%;
-		margin-top: 0%;
-	}
-	.ingredientsList{
-		font-size: 13px;
-		font-family:'Roboto', sans-serif;
-		margin-bottom: 0px;
-	}
- 
-	/*PREPARACION*/
-	.rowTextPreparation{
-		margin-top: 0px;
-		margin-bottom: 10px;
-		background-color: #DADADA;
-		border-bottom: solid 1px #dadada;
-		border-top: solid 1px #dadada;
-	}
- .textPreparation{	
-	margin-bottom: 0%;
-	margin-top: 0%;
- }
-
- .titlePreparation{
-	 text-align: center;
-	 margin-top:0px;
-	 font-size: 14px;
-	 font-family:'Roboto', sans-serif;
-	 font-weight: bold;
- }
-
- .completeRecipes{
-	 margin-right: 30px;
-	 font-size: 13px;
-	 font-family:'Roboto', sans-serif;
-	 margin-bottom: 40px;
-	 text-align: justify;
- }
-
- .recipes{
-	 margin-top: 53px;
- }
- 
-/****************************FIN SECCION RECETAS********************************/
-.contEdit {
-	display:none;
-	border-color: #303030;
-}
-
-.contEditado {	
-	border-color: #303030;
-}
-	
-@media (min-width: 768px){
-.ingredientsList, .completeRecipes{
-	font-size: 15px;
-}
-}
-
-/********************SECCION FAVORITOS*******************************/
-#sectionFavorite{
-	display: none;
-}
-.favorite{
-margin-top: 53px;
-}
-#btnArrowFavorite{
-	margin: none;
-	border:none;
-	background-color: transparent;
-}
-
-.conteinerFavorite{
-	margin-bottom: 3%;
+@keyframes fadeout {
+	from {opacity: 1;}
+	to {opacity: 0;}
 }
